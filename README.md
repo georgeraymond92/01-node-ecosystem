@@ -6,37 +6,34 @@
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/georgeraymond92/01-node-ecosystem)
+* [travis](https://www.travis-ci.com/georgeraymond92/01-node-ecosystem)
+* [heroku](https://dashboard.heroku.com/apps/node-ecosystem)
+
 
 ### Modules
-#### `modulename.js`
+#### `greet.js`
+#### `arithmetic.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `greet(string) -> string`
+returns a greeting to the string passed in
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `arithmetic(int, int) -> int`
+multiply, add, subtract or divide two integers passed in as arguments, returns null if NaN
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - process.ENV
+
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `index.js`
+  * Returns greet function and arithmetic functions.
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* run "npm run test"
 
 #### UML
 Link to an image of the UML for your application and response to events
